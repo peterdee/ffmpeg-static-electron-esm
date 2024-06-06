@@ -6,11 +6,13 @@ It is a modified version from the original [ffmpeg-static](https://github.com/pi
 
 In `ffmpeg-static`, recognising the target OS is done with [`os.platform()`](https://nodejs.org/api/os.html#os_os_platform) where mac os x is  recognised as`darwin` rather then `mac`.
 
-The need to tailor ffmpeg-static to use with `electron-builder` came from a use cases such as that of [autoEdit.io](http://autoEdit.io). 
-
-See here for more info on [How to package ffmpeg with the fluent-ffmpeg node library in electron, so that you only ship the binaries for the target operating system](https://pietropassarelli.com/ffmpeg-electron.html)
-
 There is also [`ffprobe-static-electron-esm`](https://github.com/peterdee/ffprobe-static-electron-esm)
+
+### Install
+
+```shell script
+npm i github:peterdee/ffmpeg-static-electron-esm
+```
 
 ### Usage
 
