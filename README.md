@@ -20,7 +20,7 @@ Returns the path of a statically linked ffmpeg binary on the local filesystem.
 
 ```javascript
 import ffmpegPath from 'ffmpeg-static-electron-esm';
-console.log(ffmpeg.path);
+console.log(ffmpegPath.path);
 ```
 
 ### License
