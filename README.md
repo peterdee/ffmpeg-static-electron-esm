@@ -1,4 +1,4 @@
-# `ffmpeg-static-electron`
+## ffmpeg-static-electron-esm
 
 The module returns a file path to the binary for the target operating system. 
 
@@ -17,14 +17,6 @@ There is also [`ffprobe-static-electron`](https://github.com/pietrop/ffprobe-sta
 ---
 
 ffmpeg static binaries for Mac OSX and Linux and Windows
-
-## Installation
-
-This module is installed via npm:
-
-``` bash
-$ npm install ffmpeg-static-electron
-```
 
 ## Example Usage
 
