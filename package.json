@@ -3,15 +3,9 @@
   "version": "2.0.4",
   "description": "ffmpeg static binaries for Mac, Linux and Windows",
   "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/tape test/*.js"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pietrop/ffmpeg-static-electron"
+    "url": "https://github.com/peterdee/ffmpeg-static-electron-esm"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "tape": "~2.3.2"
-  }
+  "license": "MIT"
 }

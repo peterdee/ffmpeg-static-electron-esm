@@ -29,7 +29,7 @@ if (!dirnamePath) {
 }
 
 const ffmpegPath = path.join(
-  __dirname,
+  dirnamePath,
   'bin',
   platform,
   arch,
